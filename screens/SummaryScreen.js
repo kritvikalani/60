@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import db from '../config';
 
-export default class SummaryScreen extends React.Component(){
+export default class SummaryScreen extends React.Component{
 constructor(){
   super();
   this.state = {
