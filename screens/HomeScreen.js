@@ -4,7 +4,7 @@ import AppHeader from '../components/AppHeader';
 import SummaryScreen from '../screens/SummaryScreen';
 import db from '../config'
 
-export default class HomeScreen extends React.Component(){
+export default class HomeScreen extends React.Component{
   constructor(){
     super();
     this.state={
